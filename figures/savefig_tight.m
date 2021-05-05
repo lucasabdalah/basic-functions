@@ -6,17 +6,15 @@ function savefig_tight(h,outfilename)
 % INPUTS: 
 %       h : figure
 %       outfilename : a string to name the exported PDF file
-%
 % OUTPUTS:
 %       none
-%
 % EXAMPLE:
 %       h = figure;
 %       plot(1:10,1:10);
 %       axis tight;
 %       savefig_tight(h,'myfigure');
 %
-%   See also figure, print.
+%   See also figure, print
 % 
 %HISTORY:
 % 2021/05/03 - Lucas Abdalah.
