@@ -1,25 +1,26 @@
 function savefig_tight(h,outfilename,format)
-%SAVEFIG_TIGHT exports narrow margin figure as file.
-%   SAVEFIG_TIGHT(h, outfilename) generates a figure as a specified file format
-%  from a figure h with a string outfilename. 
 %
-% INPUTS: 
+%SAVEFIG_TIGHT exports narrow margin figure as file.
+%
+%       SAVEFIG_TIGHT(h, outfilename) generates a figure as a specified file format
+%       from a figure h with a string outfilename. 
+%
+%       Inputs: 
 %       h : figure
 %       outfilename : a string to name the exported file
 %       format : File format ('pdf', 'png', 'both')
-% OUTPUTS:
-%       none
-% EXAMPLE:
-%      h = figure;
-%      plot(1:10,1:10);
-%      axis tight;
-%      savefig_tight(h,'myfigure','png');
 %
-%   See also figure, print
+%       Examples:
+%           h = figure;
+%           plot(1:10,1:10);
+%           axis tight;
+%           savefig_tight(h,'myfigure','png');
+%
+%       See also FIGURE, PRINT
 % 
-%HISTORY:
-% 2021/05/03 - Lucas Abdalah.
-% 2022/05/17 - Lucas Abdalah.
+%   HISTORY:
+%       2021/05/03 - Lucas Abdalah
+%       2022/05/17 - Lucas Abdalah
 %
 
 set(h,'Units','Inches');
